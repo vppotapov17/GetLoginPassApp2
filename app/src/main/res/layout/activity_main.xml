@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    >
+
+    <TextView
+        android:id="@+id/tvViewFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LoginPass"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:id="@+id/ivSelfPhoto"
+        android:layout_height="120dp"
+        android:scaleType="centerInside"
+        android:cropToPadding="true"/>
+    <ImageButton
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:id="@+id/buttonSelfPhoto"
+        android:src="@drawable/camera"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSendInfoToContact"
+        android:text="Send Info"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGetContact"
+        android:text="Get Info"
+        />
+
+
+</LinearLayout>
